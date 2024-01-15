@@ -70,6 +70,6 @@ class PeopleController extends Controller
     }
 
     public function fallback() {
-        return response()->json("dupa", 404);
+        return response()->json("error", 404);
       }
 }
